@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Apex Solutions</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="page-header">
+            <h2>Contact Us</h2>
+            <p>Reach out to discuss how we can help your business</p>
+        </section>
+        
+        <main class="contact-container">
+            <section class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>We're here to answer any questions you have about our services.</p>
+                <div class="info-item">
+                    <strong>Email:</strong>
+                    <a href="mailto:info@apexsolutions.com">info@apexsolutions.com</a>
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong>
+                    <a href="tel:+260970403008">+260 970403008</a>
+                </div>
+                <div class="info-item">
+                    <strong>Address:</strong>
+                    <address>20429c Off Nangwenya Rd, P.O.Box 34360<br>Lusaka, Zambia</address>
+                </div>
+            </section>
+    
+            <section class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Your email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="What is this regarding?">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Apex Solutions. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
