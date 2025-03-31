@@ -1,3 +1,7 @@
+# Group Members
+- Kasweka Michael Mukoko
+- Simon Chanda 
+
 # Lab 3: Multipage Website
 
 This project is a multipage website built using HTML and CSS, demonstrating various web development techniques such as selectors, Flexbox/Grid layouts, media queries, and animations.
